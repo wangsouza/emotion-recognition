@@ -25,7 +25,7 @@ EMOTIONS = ["angry", "scared", "happy", "sad", "surprised",
 
 # if a video path was not supplied, grab the reference to the webcam
 if not args.get("video", False):
-	camera = cv2.VideoCapture(0)
+	camera = cv2.VideoCapture(2)
 
 # otherwise, load the video
 else:
